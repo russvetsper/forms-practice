@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.0.0.js" integrity="sha256-jrPLZ+8vDxt2FnE1zvZXCkCcebI/C8Dt5xyaQBjxQIo=" crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
+    <title>Form Practice</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Some crazy story!</h1>
+      <div id="blanks">
+        <form>
+          <div class="form-group">
+            <label for="person1">A name</label>
+            <input id="person1" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="person2">Another name</label>
+            <input id="person2" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="person3">Another name</label>
+            <input id="person3" class="form-control" type="text">
+          </div>
+          <button type="submit" class="btn">Show me the story!</button>
+
+        </form>
+      </div>
+
+      <div id="story">
+        <h1>Story of the day<h1>
+        <p>Yesterday, <span class="person1"></span> then <span class="person2"></span> jumped inot the lake,when fish crawled into <span class="person3"></span> jumped around.</p>
+      </div>
+    </div>
+  </body>
+</html>
